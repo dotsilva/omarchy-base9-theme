@@ -12,5 +12,6 @@ window#osd {
 
 progressbar#osd trough{
   border-radius: 0;
-    background-color: @background-color;
+    background-color: #1E1E1E;
+    color: #1E1E1E;
 }
