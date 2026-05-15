@@ -1,13 +1,13 @@
 @define-color background-color #1E1E1E;
 @define-color border-color #E742E7;
-@define-color label #E742E7;
+@define-color label #D4D4D4;
 @define-color image #D4D4D4;
 @define-color progress #E742E7;
 
 window#osd {
     border-radius: 0px;
     opacity: 1.0;
-    border: 4px solid @border-color;
+    border: 3px solid @border-color;
 }
 
 label#osd {
@@ -21,7 +21,7 @@ image#osd {
 
 progressbar#osd {
   border-radius: 0;
-    color: @background;
+    background-color: @background-color;
 }
 
 progress#osd {
